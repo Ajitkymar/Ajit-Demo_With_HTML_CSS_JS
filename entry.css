@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  #myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    
+  }
+  
+  #myTable {
+    border-collapse: collapse;
+    width: auto;
+    border: 2px solid #ddd;
+    font-size: 18px;
+    overflow: auto;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    
+    /* style="overflow-x:auto; */
+
+    
+    
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left;
+    padding: 12px;
+    overflow: auto;
+   
+    
+  }
+  
+  #myTable tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myTable tr.header{
+     background-color: #f1f1f1; 
+  }
+  #myTable th, #myTable td #SLno{  
+      width: 60px;
+  }
+  #myTable th, #myTable td #Description{
+      height: 50px;
+      
+  }
+  #submit{
+    text-align: right;
+    background-color: #0ca5d3;
+    /* margin-left: 2%; */
+    font-size: 17px;
+    padding: 5px 14px;
+  }
+
+#submit:hover {
+    background-color: #3e8e41;
+  color: white;
+}
+  
+  

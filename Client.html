@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My front End Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav id="navbar">
+
+        <ul>
+            <!-- <li>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Expence Entry</a>
+                    <a href="#">Bank Statement</a>
+                </div>
+
+                <div id="main">
+
+                    <span style="font-size:25px;cursor:pointer" onclick="openNav()"><a>&#9776;</a> </span>
+                </div>
+
+            </li> -->
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="service.html">Services</a></li>
+            <li class="item"><a href="Client.html">Our Clients</a></li>
+            <li class="item"><a href="contact.html">Contact Us</a></li>
+            <li style="margin-left:500px ;">
+                <div class="dropdown" id="drop-botton">
+                    <button class="dropbtn">Option
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">profile</a>
+                        <a href="#">change password</a>
+                        <a href="login.html">logout</a>
+                    </div>
+                </div>
+
+            </li>
+        </ul>
+        <!-- <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+            }
+        </script> -->
+    </nav>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="logo1.png" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="logo2.png" alt="Our Client">
+            </div>
+
+            <div class="client-item">
+                <img src="logo4.png" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="logo3.png" alt="Our Client">
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.Ajitkunar.com. All rights reserved!
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

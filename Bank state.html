@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>unikul solution limited | Bank statement </title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+
+    <link rel="stylesheet" href="st.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="ph.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="entry.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="unikul logo login.png" alt="MyOnlineMeal.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#home">Expence</a></li>
+            
+            <li class="item"><a href="Bank state.html">Bank Statement</a></li>
+            <li style="margin-left:560px ;">
+                <div class="dropdown" id="drop-botton">
+                    <button class="dropbtn">Option
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">profile</a>
+                        <a href="#">change password</a>
+                        <a href="login.html">logout</a>
+                    </div>
+                </div>
+
+            </li>
+
+
+
+
+        </ul>
+
+    </nav>
+
+
+    </div>
+    </div>
+
+
+    <section id="home" style="overflow-x:auto;">
+        <h2>EXPENCE ENTRY</h2>
+
+
+
+        <table id="myTable">
+            <tr class="header">
+                <th style="width:5%;">SL NO</th>
+                <th style="width:20%;">DATE</th>
+                
+                <th style="width:20%;">AMOUNT</th>
+
+                <th style="width:40%;">GROUP</th>
+                <th style="width:40%;">SUB GROUP</th>
+                <th style="width:40%;">SUB SUB GROUP</th>
+                <th style="width:40%;">PROJECT</th>
+                <th style="width:30%;">DESCRIPTION</th>
+
+
+            </tr>
+            <tr>
+                <td><output type="number" name="name" id="SLno"></td>
+                <td><input type="date" name="name" id="name" placeholder="Enter Date"></td>
+                
+                <td><input type="number" name="name" id="name" placeholder="Enter Amount"></td>
+
+                <td>
+                    <form action="/action_page.php">
+
+                        <select name="cars" id="cars">
+                            <option type="text" value="Select">Select</option>
+
+                            <option value="Office Expence">Office Expence</option>
+                            <option value="Travel Expence">Travel Expence</option>
+                            <option value="HR Expence">HR Expence</option>
+
+                        </select>
+
+                    </form>
+                </td>
+
+
+
+                <td>
+                    <form action="/action_page.php">
+
+                        <select name="cars" id="cars">
+                            <option value="select">Select</option>
+
+                            <option value="Petty Cash">Petty Cash</option>
+                            <option value="Transportation">Transportation</option>
+                            <option value="FL Cost">FL Cost</option>
+
+                        </select>
+
+                    </form>
+                </td>
+                <td>
+                    <form action="/action_page.php">
+
+                        <select name="cars" id="cars">
+                            <option value="select">select </option>
+
+                            <option value="ATM withdrawal">ATM withdrawal</option>
+                            <option value="Flight">Flight</option>
+                            <option value="Sujay">Sujay</option>
+
+                        </select>
+
+                    </form>
+                </td>
+                <td>
+                    <form action="/action_page.php">
+
+                        <select name="cars" id="cars">
+                            <option value="Select">Select </option>
+                            <option value="MMGA01">MMGA01</option>
+                            <option value="MMTR01">MMTR01</option>
+                            <option value="HRTP01">HRTP01</option>
+
+                        </select>
+
+                    </form>
+
+                </td>
+                <td><textarea id="Description" name="subject" placeholder="Write something.."></textarea></td>
+
+
+
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><input type="submit" id="submit" value="Submit"></td>
+            </tr>
+
+
+        </table>
+
+        <script>
+            function myFunction() {
+                var input, filter, table, tr, td, i, txtValue;
+                input = document.getElementById("myInput");
+                filter = input.value.toUpperCase();
+                table = document.getElementById("myTable");
+                tr = table.getElementsByTagName("tr");
+                for (i = 0; i < tr.length; i++) {
+                    td = tr[i].getElementsByTagName("td")[0];
+                    if (td) {
+                        txtValue = td.textContent || td.innerText;
+                        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                            tr[i].style.display = "";
+                        } else {
+                            tr[i].style.display = "none";
+                        }
+                    }
+                }
+            }
+        </script> -->
+
+    </section>
+
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.Unikul.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
